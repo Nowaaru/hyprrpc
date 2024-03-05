@@ -1,0 +1,49 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1709479366,
+        "narHash": "sha256-n6F0n8UV6lnTZbYPl1A9q1BS0p4hduAv1mGAP17CVd0=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "b8697e57f10292a6165a20f03d2f42920dfaf973",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nuget-packageslock2nix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1690832952,
+        "narHash": "sha256-lK8lnmcy+4aj0zBUDNh4icamVgQ2jlIKPNx007/zEOA=",
+        "owner": "mdarocha",
+        "repo": "nuget-packageslock2nix",
+        "rev": "5897dae0aaee226bce938afd787ada535a8f0ea2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mdarocha",
+        "ref": "main",
+        "repo": "nuget-packageslock2nix",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "nuget-packageslock2nix": "nuget-packageslock2nix"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
